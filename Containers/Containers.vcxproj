@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2d6a4af9-13c5-4447-a273-ee6d6bc06f7c}</ProjectGuid>
-    <RootNamespace>HelloWorld</RootNamespace>
+    <ProjectGuid>{e73901a0-615d-4ca4-9f8c-05d0a2c96270}</ProjectGuid>
+    <RootNamespace>Containers</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -104,7 +104,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,11 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HelloWorld.cpp" />
-    <ClCompile Include="Student.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Student.h" />
+    <ClCompile Include="Containers.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
