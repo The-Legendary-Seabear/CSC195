@@ -15,39 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="OOP.cpp">
+    <ClCompile Include="Classes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Human.cpp">
+    <ClCompile Include="Cat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Student.cpp">
+    <ClCompile Include="Sandwich.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BusDriver.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="School.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Console.cpp">
+    <ClCompile Include="ClassDataBases.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Human.h">
+    <ClInclude Include="Classes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Student.h">
+    <ClInclude Include="Cat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BusDriver.h">
+    <ClInclude Include="Sandwich.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="School.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Console.h">
+    <ClInclude Include="ClassDataBases.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

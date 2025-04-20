@@ -16,8 +16,16 @@ public:
 
 	}
 
+
+	void read() override;
+	void write() override;
+
+
 	float getGPA() { return m_gpa; }
-	float setGPA(float gpa) { m_gpa = gpa; }
+	void setGPA(float gpa) { m_gpa = gpa; }
+
+	Type getType() override { return Type::STUDENT; }
+	void work() override { cout << "student work\n"; }
 private:
 	float m_gpa = 4.0f;
 };

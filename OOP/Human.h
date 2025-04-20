@@ -5,6 +5,12 @@ using age_t = unsigned short;
 
 class Human {
 public:
+    enum class Type : unsigned short {
+        STUDENT,
+        BUSDRIVER
+    };
+
+public:
     Human() {
         cout << "constructor\n";
         m_count++;
@@ -20,10 +26,17 @@ public:
         cout << "Destructor\n";
         m_count--;
     }
+
+    
+    virtual void read();
+    virtual void write();
+
     string getName() { return m_name; }
     unsigned short getAge() { return m_age; }
     void setAge(age_t age);
     static int getCount() { return m_count; }
+    virtual Type getType() { return Type::STUDENT; }
+    virtual void work() = 0;
 protected:
     string m_name;
     age_t m_age = 0;
