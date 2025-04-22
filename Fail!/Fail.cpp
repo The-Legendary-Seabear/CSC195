@@ -10,10 +10,12 @@ int main() {
     vector<Shape*> shapes;
 
     Circle* c = new Circle(1.0f);
+    Circle* d = new Circle(2.2f);
     c->SetRadius(3.0f);
     Rectangle* r = new Rectangle(4.0f, 5.0f);
 
     shapes.push_back(c);
+    shapes.push_back(d);
     shapes.push_back(r);
 
     for (int i = 0; i < shapes.size(); i++)
